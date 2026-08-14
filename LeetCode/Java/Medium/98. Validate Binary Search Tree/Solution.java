@@ -1,7 +1,7 @@
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     long val;
+ *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode() {}
