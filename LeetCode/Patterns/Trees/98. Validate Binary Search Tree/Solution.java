@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    int prev = Integer.MIN_VALUE;
+    Lo prev = Integer.MIN_VALUE;
     public boolean isValidBST(TreeNode root) {
         if(root == null)
             return true;
