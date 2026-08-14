@@ -1,7 +1,7 @@
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
+ *     long val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode() {}
@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    Lo prev = Integer.MIN_VALUE;
+    long prev = Long.MIN_VALUE;
     public boolean isValidBST(TreeNode root) {
         if(root == null)
             return true;
