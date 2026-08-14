@@ -19,10 +19,12 @@ class Solution {
         if(root == null)
             return true;
 
-        if(root.val <= prev)
-            return false;        
+                
         
         if(!isValidBST(root.left))
+            return false;
+
+        if(root.val <= prev)
             return false;
 
         prev = root.val;
