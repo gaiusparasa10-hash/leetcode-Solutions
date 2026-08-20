@@ -8,7 +8,6 @@ class Solution {
         while (i < nums.length) {
             int start = nums[i];
 
-            // Find the end of the current consecutive range
             while (i + 1 < nums.length &&
                    nums[i + 1] == nums[i] + 1) {
                 i++;
@@ -16,16 +15,12 @@ class Solution {
 
             int end = nums[i];
 
-            // Single number
             if (start == end) {
                 result.add(String.valueOf(start));
             } 
-            // Range of multiple numbers
             else {
                 result.add(start + "->" + end);
             }
-
-            // Move to the next range
             i++;
         }
 
