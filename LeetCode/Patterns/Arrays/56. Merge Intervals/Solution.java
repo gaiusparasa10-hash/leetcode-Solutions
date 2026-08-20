@@ -1,7 +1,6 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
 
-        // Sort by start time
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
 
         List<int[]> result = new ArrayList<>();
@@ -11,7 +10,6 @@ class Solution {
 
         for (int i = 1; i < intervals.length; i++) {
 
-            // Overlapping
             if (intervals[i][0] <= end) {
                 end = Math.max(end, intervals[i][1]);
             }
@@ -24,7 +22,6 @@ class Solution {
             }
         }
 
-        // Add the last interval
         result.add(new int[]{start, end});
 
         return result.toArray(new int[result.size()][]);
