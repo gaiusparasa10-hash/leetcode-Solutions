@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 3 / 150 (2.0%)
+- **Completed:** 4 / 150 (2.7%)
 
 ---
 
@@ -146,7 +146,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Interleaving String
 - [ ] Longest Increasing Path in a Matrix
 - [ ] Distinct Subsequences
-- [ ] Edit Distance
+- [x] [Edit Distance](./Java/Medium/72. Edit Distance/)
 - [ ] Burst Balloons
 - [ ] Regular Expression Matching
 
